@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --verde-primario: #aad8d3; 
+  --verde-secundario: #00adb5;
+  --fuente-primaria: "Montserrat", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --fuente-secundaria: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --width-logo: 200px;
+}
+.img-404 {
+  background: url(../Img/404-2.jpg);
+  height: 100vh;
+}
+.logo {
+  width: var(--width-logo);
+}
+.tittle {
+  font-family: var(--fuente-primaria);
+}

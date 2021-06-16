@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --verde-primario: #aad8d3; 
+    --verde-secundario: #00adb5;
+    --fuente-primaria: "Montserrat", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --fuente-secundaria: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --width-logo: 200px;
+}
+body { 
+    font-family: var(--fuente-primaria);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../Img/404-2.jpg);
+}
+.envoltura{
+    text-align: center;
+    color: black;
+}
+.envoltura h2{
+    margin: 40px 0;
+    font-size: 2.5rem;
+}
+.envoltura img{
+    width: 600px;
+    max-width: 75%;
+}
+.envoltura h4{
+    margin: 40px 0 20px;
+    font-size: 1.2rem;
+}
+a{
+    text-decoration: none;
+    background: #fff;
+    color: black;
+    padding: 12px 24px;
+    display: inline-block;
+    border-radius: 25px;
+    font-size: 14px;
+    transition: 0.4s;
+}
